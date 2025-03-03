@@ -16,7 +16,7 @@ namespace WeatherAPI.Services
 
         public async Task CreateWeatherItem(WeatherItem item)
         {
-            var query = "CREATE (w:Weather){id: $id, temperature: $temperature, humidity: $humidity, windSpeed: $windSpeed})";
+            var query = "CREATE (w:Weather {id: $id, temperature: $temperature, humidity: $humidity, windSpeed: $windSpeed})";
             var parameters = new Dictionary<string, object>
             {
                 { "id", item.Id },
@@ -30,7 +30,7 @@ namespace WeatherAPI.Services
 
         public async Task<WeatherItem> GetWeatherItem(string id)
         {
-            var query = "MATCH (w:weather {id: $id}) RETURN w";
+            var query = "MATCH (w:Weather {id: $id}) RETURN w";
             var parameters = new Dictionary<string, object> { { "id", id } };
 
             return await ExecuteReadTransaction(query, parameters);
@@ -38,7 +38,7 @@ namespace WeatherAPI.Services
 
         public async Task UpdateWeatherItem(WeatherItem item)
         {
-            var query = "MATCH (w:weather {id: $id} SET w.temperature = $temperature, w.humidity = $humidity, w.windSpeed = $windSpeed)";
+            var query = "MATCH (w:Weather {id: $id}) SET w.temperature = $temperature, w.humidity = $humidity, w.windSpeed = $windSpeed";
             var parameters = new Dictionary<string, object>
             {
                 { "id", item.Id },
@@ -46,6 +46,7 @@ namespace WeatherAPI.Services
                 { "humidity", item.Humidity },
                 { "windSpeed", item.WindSpeed }
             };
+
             await ExecuteWriteTransaction(query, parameters);
         }
 
