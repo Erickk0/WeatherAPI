@@ -1,10 +1,3 @@
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.csproj.AssemblyReference.cache
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.AssemblyInfoInputs.cache
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.AssemblyInfo.cs
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.csproj.CoreCompileInputs.cache
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\erick\source\repos\WeatherAPI\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\erick\source\repos\WeatherAPI\bin\Debug\net8.0\appsettings.json
 C:\Users\erick\source\repos\WeatherAPI\bin\Debug\net8.0\WeatherAPI.staticwebassets.endpoints.json
@@ -19,6 +12,14 @@ C:\Users\erick\source\repos\WeatherAPI\bin\Debug\net8.0\Neo4j.Driver.dll
 C:\Users\erick\source\repos\WeatherAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\erick\source\repos\WeatherAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\erick\source\repos\WeatherAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.csproj.AssemblyReference.cache
+C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.AssemblyInfoInputs.cache
+C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.AssemblyInfo.cs
+C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.csproj.CoreCompileInputs.cache
+C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.sourcelink.json
 C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\scopedcss\bundle\WeatherAPI.styles.css
 C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\staticwebassets.development.json
@@ -35,4 +36,3 @@ C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\refint\WeatherAPI.dll
 C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.pdb
 C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.genruntimeconfig.cache
 C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\ref\WeatherAPI.dll
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.sourcelink.json
