@@ -1,38 +1,117 @@
-C:\Users\erick\source\repos\WeatherAPI\bin\Debug\net8.0\appsettings.Development.json
-C:\Users\erick\source\repos\WeatherAPI\bin\Debug\net8.0\appsettings.json
-C:\Users\erick\source\repos\WeatherAPI\bin\Debug\net8.0\WeatherAPI.staticwebassets.endpoints.json
-C:\Users\erick\source\repos\WeatherAPI\bin\Debug\net8.0\WeatherAPI.exe
-C:\Users\erick\source\repos\WeatherAPI\bin\Debug\net8.0\WeatherAPI.deps.json
-C:\Users\erick\source\repos\WeatherAPI\bin\Debug\net8.0\WeatherAPI.runtimeconfig.json
-C:\Users\erick\source\repos\WeatherAPI\bin\Debug\net8.0\WeatherAPI.dll
-C:\Users\erick\source\repos\WeatherAPI\bin\Debug\net8.0\WeatherAPI.pdb
-C:\Users\erick\source\repos\WeatherAPI\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\erick\source\repos\WeatherAPI\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\erick\source\repos\WeatherAPI\bin\Debug\net8.0\Neo4j.Driver.dll
-C:\Users\erick\source\repos\WeatherAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\erick\source\repos\WeatherAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\erick\source\repos\WeatherAPI\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.csproj.AssemblyReference.cache
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.AssemblyInfoInputs.cache
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.AssemblyInfo.cs
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.csproj.CoreCompileInputs.cache
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.sourcelink.json
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\scopedcss\bundle\WeatherAPI.styles.css
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\staticwebassets.development.json
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\staticwebassets\msbuild.WeatherAPI.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\staticwebassets\msbuild.WeatherAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\staticwebassets\msbuild.build.WeatherAPI.props
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.WeatherAPI.props
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.WeatherAPI.props
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\staticwebassets.pack.json
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.csproj.Up2Date
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.dll
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\refint\WeatherAPI.dll
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.pdb
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\WeatherAPI.genruntimeconfig.cache
-C:\Users\erick\source\repos\WeatherAPI\obj\Debug\net8.0\ref\WeatherAPI.dll
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/bin/Debug/net8.0/appsettings.Development.json
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/bin/Debug/net8.0/appsettings.json
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/bin/Debug/net8.0/WeatherAPI.staticwebassets.endpoints.json
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/bin/Debug/net8.0/WeatherAPI.exe
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/bin/Debug/net8.0/WeatherAPI.deps.json
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/bin/Debug/net8.0/WeatherAPI.runtimeconfig.json
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/bin/Debug/net8.0/WeatherAPI.dll
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/bin/Debug/net8.0/WeatherAPI.pdb
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/bin/Debug/net8.0/MediatR.dll
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/bin/Debug/net8.0/MediatR.Contracts.dll
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/bin/Debug/net8.0/Microsoft.OpenApi.dll
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/bin/Debug/net8.0/Neo4j.Driver.dll
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.csproj.AssemblyReference.cache
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.AssemblyInfoInputs.cache
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.AssemblyInfo.cs
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.csproj.CoreCompileInputs.cache
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.sourcelink.json
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/scopedcss/bundle/WeatherAPI.styles.css
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/staticwebassets.build.json
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/staticwebassets.development.json
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/staticwebassets/msbuild.WeatherAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/staticwebassets/msbuild.WeatherAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/staticwebassets/msbuild.build.WeatherAPI.props
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WeatherAPI.props
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WeatherAPI.props
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/staticwebassets.pack.json
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.csproj.Up2Date
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.dll
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/refint/WeatherAPI.dll
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.pdb
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.genruntimeconfig.cache
+C:/Users/Erick Zeiler/Desktop/Repos/ekkodale.Apprentice/Weather_API/WeatherAPI/obj/Debug/net8.0/ref/WeatherAPI.dll
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/bin/Debug/net8.0/appsettings.Development.json
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/bin/Debug/net8.0/appsettings.json
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/bin/Debug/net8.0/WeatherAPI.staticwebassets.endpoints.json
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/bin/Debug/net8.0/WeatherAPI.exe
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/bin/Debug/net8.0/WeatherAPI.deps.json
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/bin/Debug/net8.0/WeatherAPI.runtimeconfig.json
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/bin/Debug/net8.0/WeatherAPI.dll
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/bin/Debug/net8.0/WeatherAPI.pdb
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/bin/Debug/net8.0/MediatR.dll
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/bin/Debug/net8.0/MediatR.Contracts.dll
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/bin/Debug/net8.0/Microsoft.OpenApi.dll
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/bin/Debug/net8.0/Neo4j.Driver.dll
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.csproj.AssemblyReference.cache
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.AssemblyInfoInputs.cache
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.AssemblyInfo.cs
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.csproj.CoreCompileInputs.cache
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.MvcApplicationPartsAssemblyInfo.cs
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.sourcelink.json
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/scopedcss/bundle/WeatherAPI.styles.css
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/staticwebassets.build.json
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/staticwebassets.development.json
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/staticwebassets.build.endpoints.json
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/staticwebassets/msbuild.WeatherAPI.Microsoft.AspNetCore.StaticWebAssets.props
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/staticwebassets/msbuild.WeatherAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/staticwebassets/msbuild.build.WeatherAPI.props
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WeatherAPI.props
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WeatherAPI.props
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/staticwebassets.pack.json
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.csproj.Up2Date
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.dll
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/refint/WeatherAPI.dll
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.pdb
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/WeatherAPI.genruntimeconfig.cache
+C:/Users/Erick Zeiler/Desktop/Repos/OnBoarding_Erick_Zeiler/Weather_API/WeatherAPI/obj/Debug/net8.0/ref/WeatherAPI.dll
+/Users/erickzeiler/RiderProjects/WeatherAPI/bin/Debug/net8.0/appsettings.Development.json
+/Users/erickzeiler/RiderProjects/WeatherAPI/bin/Debug/net8.0/appsettings.json
+/Users/erickzeiler/RiderProjects/WeatherAPI/bin/Debug/net8.0/WeatherAPI
+/Users/erickzeiler/RiderProjects/WeatherAPI/bin/Debug/net8.0/WeatherAPI.deps.json
+/Users/erickzeiler/RiderProjects/WeatherAPI/bin/Debug/net8.0/WeatherAPI.runtimeconfig.json
+/Users/erickzeiler/RiderProjects/WeatherAPI/bin/Debug/net8.0/WeatherAPI.dll
+/Users/erickzeiler/RiderProjects/WeatherAPI/bin/Debug/net8.0/WeatherAPI.pdb
+/Users/erickzeiler/RiderProjects/WeatherAPI/bin/Debug/net8.0/MediatR.dll
+/Users/erickzeiler/RiderProjects/WeatherAPI/bin/Debug/net8.0/MediatR.Contracts.dll
+/Users/erickzeiler/RiderProjects/WeatherAPI/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
+/Users/erickzeiler/RiderProjects/WeatherAPI/bin/Debug/net8.0/Microsoft.OpenApi.dll
+/Users/erickzeiler/RiderProjects/WeatherAPI/bin/Debug/net8.0/Neo4j.Driver.dll
+/Users/erickzeiler/RiderProjects/WeatherAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/erickzeiler/RiderProjects/WeatherAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/erickzeiler/RiderProjects/WeatherAPI/bin/Debug/net8.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/WeatherAPI.csproj.AssemblyReference.cache
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/WeatherAPI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/WeatherAPI.AssemblyInfoInputs.cache
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/WeatherAPI.AssemblyInfo.cs
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/WeatherAPI.csproj.CoreCompileInputs.cache
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/WeatherAPI.MvcApplicationPartsAssemblyInfo.cs
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/WeatherAPI.MvcApplicationPartsAssemblyInfo.cache
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/WeatherAPI.sourcelink.json
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/staticwebassets.build.json
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/staticwebassets.development.json
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/staticwebassets/msbuild.WeatherAPI.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/staticwebassets/msbuild.build.WeatherAPI.props
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.WeatherAPI.props
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.WeatherAPI.props
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/staticwebassets.pack.json
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/scopedcss/bundle/WeatherAPI.styles.css
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/WeatherAPI.csproj.Up2Date
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/WeatherAPI.dll
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/refint/WeatherAPI.dll
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/WeatherAPI.pdb
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/WeatherAPI.genruntimeconfig.cache
+/Users/erickzeiler/RiderProjects/WeatherAPI/obj/Debug/net8.0/ref/WeatherAPI.dll

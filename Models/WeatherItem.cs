@@ -1,10 +1,13 @@
-﻿namespace WeatherAPI.Models
+namespace WeatherAPI.Models
 {
-    public class WeatherItem
+    public class WeatherItemDTO
     {
-        public required string Id { get; set; }
+        public string Id { get; set; }
+
         public float Temperature { get; set; }
-        public float Humidity { get; set; }
+
+        public int Humidity { get; set; }
+
         public float WindSpeed { get; set; }
     }
 }

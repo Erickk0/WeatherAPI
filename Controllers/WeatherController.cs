@@ -1,49 +1,58 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
+using WeatherAPI.CQRS.Commands;
 using WeatherAPI.Models;
-using WeatherAPI.Services;
+using WeatherAPI.CQRS.Query;
 
-namespace WeatherAPI.Controllers
+namespace Weather_API.Controllers
 {
     [ApiController]
     [Route("api/weather")]
     public class WeatherController : ControllerBase
     {
-        private readonly Neo4jService _neo4jService;
+        private readonly IMediator _mediator;
 
-        public WeatherController(Neo4jService neo4jService)
+        public WeatherController(IMediator mediator)
         {
-            _neo4jService = neo4jService;
+            _mediator = mediator;
         }
 
         [HttpPost]
-        public async Task<IActionResult> CreateWeather([FromBody] WeatherItem item)
+        public async Task<IActionResult> CreateWeather([FromBody] CreateWeatherCommand command)
         {
-            await _neo4jService.CreateWeatherItem(item);
-            return CreatedAtAction(nameof(GetWeather), new { id = item.Id }, item);
+            try
+            {
+                var result = await _mediator.Send(command);
+                return CreatedAtAction(nameof(GetWeatherById), new { id = result }, result);
+            }
+            catch (Exception ex)
+            {
+                return BadRequest($"Error creating weather data: {ex.Message}");
+            }
         }
 
         [HttpGet("{id}")]
-        public async Task<IActionResult> GetWeather(string id)
+        public async Task<IActionResult> GetWeatherById(string id)
         {
-            var item = await _neo4jService.GetWeatherItem(id);
-            if (item == null) return NotFound("Weather item not found");
-            return Ok(item);
+            var query = new GetWeatherByIdQuery(id);
+            var result = await _mediator.Send(query);
+            return result is not null ? Ok(result) : NotFound();
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> UpdateWeather(string id, [FromBody] WeatherItem item)
+        [HttpGet]
+        public async Task<IActionResult> GetAllWeather()
         {
-            item.Id = id;
-            await _neo4jService.UpdateWeatherItem(item);
-            return NoContent();
+            var query = new GetAllWeatherQuery();
+            var result = await _mediator.Send(query);
+            return Ok(result); 
         }
-
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteWeather(string id)
+        
+        [HttpDelete]
+        public async Task<IActionResult> DeleteWeatherById(string id)
         {
-            await _neo4jService.DeleteWeatherItem(id);
-            return NoContent();
+            var query = new DeleteWeatherCommand(id);
+            var result = await _mediator.Send(query);
+            return Ok(result);
         }
     }
 }

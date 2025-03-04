@@ -1,19 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "AmIMdaJLZS4=",
+  "dgSpecHash": "wm3CpOflW2A=",
   "success": true,
-  "projectFilePath": "C:\\Users\\erick\\source\\repos\\WeatherAPI\\WeatherAPI.csproj",
+  "projectFilePath": "/Users/erickzeiler/RiderProjects/WeatherAPI/WeatherAPI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\erick\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\5.0.0\\microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
-    "C:\\Users\\erick\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
-    "C:\\Users\\erick\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
-    "C:\\Users\\erick\\.nuget\\packages\\neo4j.driver\\5.27.0\\neo4j.driver.5.27.0.nupkg.sha512",
-    "C:\\Users\\erick\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
-    "C:\\Users\\erick\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
-    "C:\\Users\\erick\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
-    "C:\\Users\\erick\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
-    "C:\\Users\\erick\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512",
-    "C:\\Users\\erick\\.nuget\\packages\\system.valuetuple\\4.5.0\\system.valuetuple.4.5.0.nupkg.sha512"
+    "/Users/erickzeiler/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
+    "/Users/erickzeiler/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/erickzeiler/.nuget/packages/microsoft.bcl.asyncinterfaces/5.0.0/microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
+    "/Users/erickzeiler/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/erickzeiler/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/erickzeiler/.nuget/packages/microsoft.openapi/1.6.14/microsoft.openapi.1.6.14.nupkg.sha512",
+    "/Users/erickzeiler/.nuget/packages/neo4j.driver/5.27.0/neo4j.driver.5.27.0.nupkg.sha512",
+    "/Users/erickzeiler/.nuget/packages/swashbuckle.aspnetcore/6.6.2/swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "/Users/erickzeiler/.nuget/packages/swashbuckle.aspnetcore.swagger/6.6.2/swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
+    "/Users/erickzeiler/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.6.2/swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
+    "/Users/erickzeiler/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.6.2/swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
+    "/Users/erickzeiler/.nuget/packages/system.io.pipelines/7.0.0/system.io.pipelines.7.0.0.nupkg.sha512",
+    "/Users/erickzeiler/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }
