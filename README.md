@@ -43,19 +43,6 @@ WeatherAPI is a simple CQRS-based .NET Core application that interacts with a **
 - dotnet run
 
 
-### **Project Structure**
-WeatherAPI/
-│── WeatherAPI.csproj       # .NET Core Project File
-│── appsettings.json        # Configuration File (Database, Logging)
-│── /CQRS                   # Command & Query Handlers
-│── /Models                 # Weather Model
-│── /Services               # Business Logic & Data Access
-│── Program.cs              # Main Entry Point
-
-
-
----
-
 ### **📝 TODO.md**
 ```markdown
 # ✅ TODO List - WeatherAPI
