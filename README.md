@@ -73,7 +73,7 @@ WeatherAPI is a simple CQRS-based .NET Core application that interacts with a **
 
 ```
 ### **License**
-- This project is licensed under the MIT License - see the LICENSE file for details.
+- This project is licensed under the MIT License - see the LICENSE tab for details.
 
 
 
