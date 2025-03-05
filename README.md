@@ -85,7 +85,7 @@ WeatherAPI/
 - [ ] Configure **CI/CD pipeline** for automated builds
 - [ ] Optimize database queries for **better performance**
 
-
+```
 ### **License**
 - This project is licensed under the MIT License - see the LICENSE file for details.
 
