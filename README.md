@@ -29,7 +29,7 @@ WeatherAPI is a simple CQRS-based .NET Core application that interacts with a **
   }
 
 ### **2 Clone Repository**
-- git clone https://github.com/yourusername/WeatherAPI.git
+- git clone https://github.com/Erickk0/WeatherAPI.git
 - cd WeatherAPI
 
 
