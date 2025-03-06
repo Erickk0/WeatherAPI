@@ -1,9 +1,10 @@
 ﻿using System;
 using MediatR;
+using Microsoft.AspNetCore.Mvc;
 
 namespace WeatherAPI.CQRS.Commands;
 
-public class CreateWeatherCommand : IRequest<string>
+public class CreateWeatherCommand : IRequest<IActionResult>
 {
     public float Temperature { get; set; }
 

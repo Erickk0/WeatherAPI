@@ -1,17 +1,20 @@
-﻿using MediatR;
+﻿/*using MediatR;
 using Neo4j.Driver;
 using WeatherAPI.CQRS.Query;
 using WeatherAPI.Models;
+using WeatherAPI.Services.Repositories;
 
 namespace WeatherAPI.CQRS.Query;
 
 public class GetAllWeatherQueryHandler : IRequestHandler<GetAllWeatherQuery, IEnumerable<WeatherItemDTO>>
 {
     private readonly IDriver _driver;
+    private readonly IWeatherService _weatherService;
 
-    public GetAllWeatherQueryHandler(IDriver driver)
+    public GetAllWeatherQueryHandler(IDriver driver, IWeatherService weatherService)
     {
         _driver = driver ?? throw new ArgumentNullException(nameof(driver));
+        _weatherService = weatherService;
     }
 
     public async Task<IEnumerable<WeatherItemDTO>> Handle(GetAllWeatherQuery request, CancellationToken cancellationToken)
@@ -44,5 +47,29 @@ public class GetAllWeatherQueryHandler : IRequestHandler<GetAllWeatherQuery, IEn
 
         return weatherList;
     }
-}
+}*/
 
+
+using MediatR;
+using WeatherAPI.CQRS.Commands;
+using WeatherAPI.Services.Repositories;
+using Microsoft.AspNetCore.Mvc;
+using WeatherAPI.Models;
+
+namespace WeatherAPI.CQRS.Query
+{
+    public class GetAllWeatherHandler : IRequestHandler<GetAllWeatherQuery, IEnumerable<WeatherItemDTO>>
+    {
+        private readonly IWeatherService _weatherService;
+
+        public GetAllWeatherHandler(IWeatherService weatherService)
+        {
+            _weatherService = weatherService;
+        }
+
+        public async Task<IEnumerable<WeatherItemDTO>> Handle(GetAllWeatherQuery request, CancellationToken cancellationToken)
+        {
+            return (IEnumerable<WeatherItemDTO>) await _weatherService.GetAllWeather();
+        }
+    }
+}
