@@ -7,7 +7,7 @@ using Neo4j.Driver;
 using WeatherAPI.Services.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
-
+    
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",

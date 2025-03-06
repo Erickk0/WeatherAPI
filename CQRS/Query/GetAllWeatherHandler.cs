@@ -55,21 +55,29 @@ using WeatherAPI.CQRS.Commands;
 using WeatherAPI.Services.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using WeatherAPI.Models;
+using System.Linq;
 
 namespace WeatherAPI.CQRS.Query
 {
     public class GetAllWeatherHandler : IRequestHandler<GetAllWeatherQuery, IEnumerable<WeatherItemDTO>>
     {
         private readonly IWeatherService _weatherService;
+        private readonly ILogger<GetAllWeatherHandler> _logger;
 
-        public GetAllWeatherHandler(IWeatherService weatherService)
+        public GetAllWeatherHandler(IWeatherService weatherService, ILogger<GetAllWeatherHandler> logger)
         {
             _weatherService = weatherService;
+            _logger = logger;
         }
 
         public async Task<IEnumerable<WeatherItemDTO>> Handle(GetAllWeatherQuery request, CancellationToken cancellationToken)
         {
-            return (IEnumerable<WeatherItemDTO>) await _weatherService.GetAllWeather();
+            var weatherList = await _weatherService.GetAllWeather();
+            _logger.LogInformation("Before sorting: {WeatherList}", weatherList.Select(w => w.Temperature));
+
+            var sortedList = weatherList.OrderBy(w => w.Temperature).ToList();
+            _logger.LogInformation("After sorting: {SortedList}", sortedList.Select(w => w.Temperature));
+            return sortedList;
         }
     }
 }

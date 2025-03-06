@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WeatherAPI.CQRS.Commands;
+using WeatherAPI.Models;
 
 namespace WeatherAPI.Services.Repositories
 {
@@ -7,7 +8,7 @@ namespace WeatherAPI.Services.Repositories
     {
         Task<IActionResult> CreateWeather([FromBody] CreateWeatherCommand command);
         Task<IActionResult> GetWeatherById(string id);
-        Task<IActionResult> GetAllWeather();
+        Task<IEnumerable<WeatherItemDTO>> GetAllWeather();
         Task<IActionResult> DeleteWeatherById(string id);
     }
 }

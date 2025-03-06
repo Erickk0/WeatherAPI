@@ -53,7 +53,7 @@ namespace WeatherAPI.Controllers
             var result = await _mediator.Send(query);
             return Ok(result);*/
             var result = await _weatherService.GetAllWeather();
-            return result;
+            return Ok(result);
         }
         
         [HttpDelete]

@@ -64,7 +64,7 @@ namespace WeatherAPI.Services.Repositories
             return result is not null ? new OkObjectResult(result) : new NotFoundResult();
         }
 
-        public async Task<IActionResult> GetAllWeather()
+        public async Task<IEnumerable<WeatherItemDTO>> GetAllWeather()
         {
             var query = "MATCH (w:Weather) RETURN w.id AS id, w.temperature AS temperature, w.humidity AS humidity, w.windSpeed AS windSpeed";
             var weatherList = new List<WeatherItemDTO>();
@@ -93,7 +93,7 @@ namespace WeatherAPI.Services.Repositories
 
             var result = new OkObjectResult(weatherList);
             //var result = await _mediator.Send(query);
-            return weatherList is not null ? result : new NotFoundResult();
+            return weatherList;
         }
 
         public async Task<IActionResult> DeleteWeatherById(string id)
