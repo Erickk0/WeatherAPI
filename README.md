@@ -58,11 +58,11 @@ WeatherAPI is a simple CQRS-based .NET Core application that interacts with a **
 - [ ] Implement **error handling** and logging
 
 ## 🛠️ Testing
-- [ ] Set up **xUnit** for unit testing
+- [x] Set up **xUnit** for unit testing
 - [ ] Mock **Neo4j.Driver** with **NSubstitute**
 - [ ] Add test coverage for:
   - [ ] CreateWeatherHandler
-  - [ ] ReadWeatherHandler
+  - [x] GetAllWeatherHandler
   - [ ] UpdateWeatherHandler
   - [ ] DeleteWeatherHandler
 
