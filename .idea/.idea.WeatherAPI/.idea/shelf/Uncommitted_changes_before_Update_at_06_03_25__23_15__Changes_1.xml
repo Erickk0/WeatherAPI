@@ -1,0 +1,19 @@
+<changelist name="Uncommitted_changes_before_Update_at_06_03_25,_23_15_[Changes]1" date="1741299334951" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/.idea.WeatherAPI/.idea/shelf/Uncommitted_changes_before_Update_at_06_03_25,_23_15_[Changes]1/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 06.03.25, 23:15 [Changes]" />
+  <binary>
+    <option name="BEFORE_PATH" value="obj/Debug/net8.0/WeatherAPI.pdb" />
+    <option name="AFTER_PATH" value="obj/Debug/net8.0/WeatherAPI.pdb" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.WeatherAPI/.idea/shelf/Uncommitted_changes_before_Update_at_06_03_25,_23_15_[Changes]1/WeatherAPI.pdb" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="obj/Debug/net8.0/WeatherAPI.dll" />
+    <option name="AFTER_PATH" value="obj/Debug/net8.0/WeatherAPI.dll" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.WeatherAPI/.idea/shelf/Uncommitted_changes_before_Update_at_06_03_25,_23_15_[Changes]1/WeatherAPI.dll" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="obj/Debug/net8.0/WeatherAPI.AssemblyInfoInputs.cache" />
+    <option name="AFTER_PATH" value="obj/Debug/net8.0/WeatherAPI.AssemblyInfoInputs.cache" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/.idea.WeatherAPI/.idea/shelf/Uncommitted_changes_before_Update_at_06_03_25,_23_15_[Changes]1/WeatherAPI.AssemblyInfoInputs.cache" />
+  </binary>
+</changelist>
