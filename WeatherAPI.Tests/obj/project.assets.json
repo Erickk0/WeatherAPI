@@ -18,6 +18,12 @@
           }
         }
       },
+      "coverlet.collector/6.0.0": {
+        "type": "package",
+        "build": {
+          "build/netstandard1.0/coverlet.collector.targets": {}
+        }
+      },
       "FluentAssertions/8.1.1": {
         "type": "package",
         "compile": {
@@ -90,12 +96,10 @@
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {
         "type": "package",
         "build": {
-          "build/Microsoft.Extensions.ApiDescription.Server.props": {},
-          "build/Microsoft.Extensions.ApiDescription.Server.targets": {}
+          "build/_._": {}
         },
         "buildMultiTargeting": {
-          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props": {},
-          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
+          "buildMultiTargeting/_._": {}
         }
       },
       "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.0": {
@@ -452,7 +456,7 @@
           "Swashbuckle.AspNetCore.SwaggerUI": "6.6.2"
         },
         "build": {
-          "build/Swashbuckle.AspNetCore.props": {}
+          "build/_._": {}
         }
       },
       "Swashbuckle.AspNetCore.Swagger/6.6.2": {
@@ -665,6 +669,29 @@
         "build": {
           "build/net6.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "WeatherAPI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "FluentAssertions": "8.1.1",
+          "MediatR": "12.4.1",
+          "Microsoft.NET.Test.Sdk": "17.12.0",
+          "NSubstitute": "5.3.0",
+          "Neo4j.Driver": "5.27.0",
+          "Newtonsoft.Json": "13.0.1",
+          "Swashbuckle.AspNetCore": "6.6.2",
+          "Xunit": "2.9.3"
+        },
+        "compile": {
+          "bin/placeholder/WeatherAPI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WeatherAPI.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       }
     }
   },
@@ -691,6 +718,59 @@
         "lib/netstandard2.1/Castle.Core.dll",
         "lib/netstandard2.1/Castle.Core.xml",
         "readme.txt"
+      ]
+    },
+    "coverlet.collector/6.0.0": {
+      "sha512": "tW3lsNS+dAEII6YGUX/VMoJjBS1QvsxqJeqLaJXub08y1FSjasFPtQ4UBUsudE9PNrzLjooClMsPtY2cZLdXpQ==",
+      "type": "package",
+      "path": "coverlet.collector/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/netstandard1.0/Microsoft.Bcl.AsyncInterfaces.dll",
+        "build/netstandard1.0/Microsoft.CSharp.dll",
+        "build/netstandard1.0/Microsoft.DotNet.PlatformAbstractions.dll",
+        "build/netstandard1.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "build/netstandard1.0/Microsoft.Extensions.DependencyInjection.dll",
+        "build/netstandard1.0/Microsoft.Extensions.DependencyModel.dll",
+        "build/netstandard1.0/Microsoft.Extensions.FileSystemGlobbing.dll",
+        "build/netstandard1.0/Microsoft.TestPlatform.CoreUtilities.dll",
+        "build/netstandard1.0/Microsoft.TestPlatform.PlatformAbstractions.dll",
+        "build/netstandard1.0/Microsoft.VisualStudio.TestPlatform.ObjectModel.dll",
+        "build/netstandard1.0/Mono.Cecil.Mdb.dll",
+        "build/netstandard1.0/Mono.Cecil.Pdb.dll",
+        "build/netstandard1.0/Mono.Cecil.Rocks.dll",
+        "build/netstandard1.0/Mono.Cecil.dll",
+        "build/netstandard1.0/Newtonsoft.Json.dll",
+        "build/netstandard1.0/NuGet.Frameworks.dll",
+        "build/netstandard1.0/System.AppContext.dll",
+        "build/netstandard1.0/System.Collections.Immutable.dll",
+        "build/netstandard1.0/System.Dynamic.Runtime.dll",
+        "build/netstandard1.0/System.IO.FileSystem.Primitives.dll",
+        "build/netstandard1.0/System.Linq.Expressions.dll",
+        "build/netstandard1.0/System.Linq.dll",
+        "build/netstandard1.0/System.ObjectModel.dll",
+        "build/netstandard1.0/System.Reflection.Emit.ILGeneration.dll",
+        "build/netstandard1.0/System.Reflection.Emit.Lightweight.dll",
+        "build/netstandard1.0/System.Reflection.Emit.dll",
+        "build/netstandard1.0/System.Reflection.Metadata.dll",
+        "build/netstandard1.0/System.Reflection.TypeExtensions.dll",
+        "build/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "build/netstandard1.0/System.Runtime.Serialization.Primitives.dll",
+        "build/netstandard1.0/System.Text.RegularExpressions.dll",
+        "build/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "build/netstandard1.0/System.Threading.dll",
+        "build/netstandard1.0/System.Xml.ReaderWriter.dll",
+        "build/netstandard1.0/System.Xml.XDocument.dll",
+        "build/netstandard1.0/coverlet.collector.deps.json",
+        "build/netstandard1.0/coverlet.collector.dll",
+        "build/netstandard1.0/coverlet.collector.pdb",
+        "build/netstandard1.0/coverlet.collector.targets",
+        "build/netstandard1.0/coverlet.core.dll",
+        "build/netstandard1.0/coverlet.core.pdb",
+        "coverlet-icon.png",
+        "coverlet.collector.6.0.0.nupkg.sha512",
+        "coverlet.collector.nuspec"
       ]
     },
     "FluentAssertions/8.1.1": {
@@ -1732,19 +1812,20 @@
         "xunit.runner.visualstudio.3.0.0.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "WeatherAPI/1.0.0": {
+      "type": "project",
+      "path": "../WeatherAPI.csproj",
+      "msbuildProject": "../WeatherAPI.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "FluentAssertions >= 8.1.1",
-      "MediatR >= 12.4.1",
       "Microsoft.NET.Test.Sdk >= 17.12.0",
-      "NSubstitute >= 5.3.0",
-      "Neo4j.Driver >= 5.27.0",
-      "Newtonsoft.Json >= 13.0.1",
-      "Swashbuckle.AspNetCore >= 6.6.2",
-      "Xunit >= 2.9.3",
-      "xunit.runner.visualstudio >= 3.0.0"
+      "WeatherAPI >= 1.0.0",
+      "coverlet.collector >= 6.0.0",
+      "xunit >= 2.9.3",
+      "xunit.runner.visualstudio >= 2.9.3"
     ]
   },
   "packageFolders": {
@@ -1753,11 +1834,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/erickzeiler/RiderProjects/WeatherAPI/WeatherAPI.csproj",
-      "projectName": "WeatherAPI",
-      "projectPath": "/Users/erickzeiler/RiderProjects/WeatherAPI/WeatherAPI.csproj",
+      "projectUniqueName": "/Users/erickzeiler/RiderProjects/WeatherAPI/WeatherAPI.Tests/WeatherAPI.Tests.csproj",
+      "projectName": "WeatherAPI.Tests",
+      "projectPath": "/Users/erickzeiler/RiderProjects/WeatherAPI/WeatherAPI.Tests/WeatherAPI.Tests.csproj",
       "packagesPath": "/Users/erickzeiler/.nuget/packages/",
-      "outputPath": "/Users/erickzeiler/RiderProjects/WeatherAPI/obj/",
+      "outputPath": "/Users/erickzeiler/RiderProjects/WeatherAPI/WeatherAPI.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/erickzeiler/.nuget/NuGet/NuGet.Config"
@@ -1771,7 +1852,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/erickzeiler/RiderProjects/WeatherAPI/WeatherAPI.csproj": {
+              "projectPath": "/Users/erickzeiler/RiderProjects/WeatherAPI/WeatherAPI.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1789,43 +1874,21 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "FluentAssertions": {
-            "target": "Package",
-            "version": "[8.1.1, )"
-          },
-          "MediatR": {
-            "target": "Package",
-            "version": "[12.4.1, )"
-          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.12.0, )"
           },
-          "NSubstitute": {
+          "coverlet.collector": {
             "target": "Package",
-            "version": "[5.3.0, )"
+            "version": "[6.0.0, )"
           },
-          "Neo4j.Driver": {
-            "target": "Package",
-            "version": "[5.27.0, )"
-          },
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "[13.0.1, )"
-          },
-          "Swashbuckle.AspNetCore": {
-            "target": "Package",
-            "version": "[6.6.2, )"
-          },
-          "Xunit": {
+          "xunit": {
             "target": "Package",
             "version": "[2.9.3, )"
           },
           "xunit.runner.visualstudio": {
-            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-            "suppressParent": "All",
             "target": "Package",
-            "version": "[3.0.0, )"
+            "version": "[2.9.3, )"
           }
         },
         "imports": [
@@ -1840,9 +1903,6 @@
         "assetTargetFallback": true,
         "warn": true,
         "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
@@ -1850,5 +1910,17 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "WeatherAPI.Tests depends on xunit.runner.visualstudio (>= 2.9.3) but xunit.runner.visualstudio 2.9.3 was not found. An approximate best match of xunit.runner.visualstudio 3.0.0 was resolved.",
+      "libraryId": "xunit.runner.visualstudio",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

@@ -9,6 +9,6 @@ namespace WeatherAPI.Services.Repositories
         Task<IActionResult> CreateWeather([FromBody] CreateWeatherCommand command);
         Task<IActionResult> GetWeatherById(string id);
         Task<IEnumerable<WeatherItemDTO>> GetAllWeather();
-        Task<IActionResult> DeleteWeatherById(string id);
+        Task<bool> DeleteWeatherById(string id);
     }
 }

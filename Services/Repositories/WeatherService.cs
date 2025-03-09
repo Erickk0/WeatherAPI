@@ -46,7 +46,6 @@ namespace WeatherAPI.Services.Repositories
 
                 _logger.LogInformation("Weather record created successfully with ID: {WeatherId}", result);
 
-                //var result = await _mediator.Send(command);
                 return new OkObjectResult(result);
             }
             catch (Exception ex)
@@ -59,9 +58,43 @@ namespace WeatherAPI.Services.Repositories
 
         public async Task<IActionResult> GetWeatherById(string id)
         {
-            var query = new GetWeatherByIdQuery(id);
-            var result = await _mediator.Send(query);
-            return result is not null ? new OkObjectResult(result) : new NotFoundResult();
+            var query = "MATCH (w:Weather {id: $id}) RETURN w";
+            var parameters = new Dictionary<string, object> { { "id", id } };
+
+            try
+            {
+                await using var session = _driver.AsyncSession();
+                var result = await session.ExecuteReadAsync(async tx =>
+                {
+                    var cursor = await tx.RunAsync(query, parameters);
+
+                    if (!await cursor.FetchAsync())
+                        return null; // Return null if no record is found
+
+                    var record = cursor.Current;
+                    var node = record["w"].As<INode>();
+
+                    return new WeatherItemDTO
+                    {
+                        Id = id,
+                        Temperature = node.Properties["temperature"].As<float>(),
+                        Humidity = node.Properties["humidity"].As<int>(),
+                        WindSpeed = node.Properties["windSpeed"].As<float>()
+                    };
+                });
+
+                if (result == null)
+                {
+                    return new NotFoundResult();
+                }
+
+                return new OkObjectResult(result); 
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error occurred while retrieving weather data for ID {WeatherId}.", id);
+                return new BadRequestObjectResult($"Error retrieving weather data: {ex.Message}");
+            }
         }
 
         public async Task<IEnumerable<WeatherItemDTO>> GetAllWeather()
@@ -91,16 +124,27 @@ namespace WeatherAPI.Services.Repositories
                 throw new InvalidOperationException("Error occurred while retrieving weather data", ex);
             }
 
-            var result = new OkObjectResult(weatherList);
-            //var result = await _mediator.Send(query);
             return weatherList;
         }
 
-        public async Task<IActionResult> DeleteWeatherById(string id)
+        public async Task<bool> DeleteWeatherById(string id)
         {
-            var query = new DeleteWeatherCommand(id);
-            var result = await _mediator.Send(query);
-            return new OkObjectResult(result);
+            var query = "MATCH (w:Weather {id: $id}) DELETE w";
+
+            try
+            {
+                await using var session = _driver.AsyncSession();
+                var result = await session.ExecuteWriteAsync(async tx =>
+                {
+                    var cursor = tx.RunAsync(query, new { id });
+                    return cursor;
+                });
+                return result != null;
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException("Error occured while deleting the weather record", ex);
+            }
         }
     }
 }

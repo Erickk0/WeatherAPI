@@ -2,12 +2,14 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Logging;
 using Weather_API;
 using Neo4j.Driver;
 using WeatherAPI.Services.Repositories;
+using MediatR;
 
 var builder = WebApplication.CreateBuilder(args);
-    
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",
@@ -15,6 +17,11 @@ builder.Services.AddCors(options =>
         .AllowAnyMethod()
         .AllowAnyHeader());
 });
+
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
+builder.Logging.AddDebug();
+builder.Logging.SetMinimumLevel(LogLevel.Information);
 
 builder.Services.AddControllers();
 builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(Program).Assembly));

@@ -9,37 +9,21 @@ using Microsoft.Extensions.Logging;
 using WeatherAPI.Models;
 using Microsoft.AspNetCore.Http.HttpResults;
 using System.Net;
+using WeatherAPI.Services.Repositories;
 
 namespace WeatherAPI.CQRS.Commands;
 
 public class DeleteWeatherHandler : IRequestHandler<DeleteWeatherCommand, bool>
 {
-    private readonly IDriver _driver;
+    private readonly IWeatherService _weatherService;
 
-    public DeleteWeatherHandler(IDriver driver)
+    public DeleteWeatherHandler(IWeatherService weatherService)
     {
-        _driver = driver ?? throw new ArgumentNullException(nameof(driver));
+        _weatherService = weatherService;
     }
 
     public async Task<bool> Handle(DeleteWeatherCommand request, CancellationToken cancellationToken)
     {
-        var query = "MATCH (w:Weather {id: $id}) DELETE w";
-
-        try
-        {
-            await using var session = _driver.AsyncSession();
-            var result = await session.ExecuteWriteAsync(tx =>
-            {
-                var cursor = tx.RunAsync(query, new { id = request.Id });
-                return cursor;
-            });
-            return true;
-        }
-        catch(Exception ex)
-        {
-            throw new InvalidOperationException("Error occured while deleting the weather record", ex);
-        }
-        
+        return await _weatherService.DeleteWeatherById(request.Id);
     }
-
 }

@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "MYGg11vYyYU=",
+  "dgSpecHash": "qRXyzlzVAFo=",
   "success": true,
-  "projectFilePath": "/Users/erickzeiler/RiderProjects/WeatherAPI/WeatherAPI.csproj",
+  "projectFilePath": "/Users/erickzeiler/RiderProjects/WeatherAPI/WeatherAPI.Tests/WeatherAPI.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/erickzeiler/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
+    "/Users/erickzeiler/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
     "/Users/erickzeiler/.nuget/packages/fluentassertions/8.1.1/fluentassertions.8.1.1.nupkg.sha512",
     "/Users/erickzeiler/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
     "/Users/erickzeiler/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
@@ -36,5 +37,16 @@
     "/Users/erickzeiler/.nuget/packages/xunit.extensibility.execution/2.9.3/xunit.extensibility.execution.2.9.3.nupkg.sha512",
     "/Users/erickzeiler/.nuget/packages/xunit.runner.visualstudio/3.0.0/xunit.runner.visualstudio.3.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "WeatherAPI.Tests depends on xunit.runner.visualstudio (>= 2.9.3) but xunit.runner.visualstudio 2.9.3 was not found. An approximate best match of xunit.runner.visualstudio 3.0.0 was resolved.",
+      "libraryId": "xunit.runner.visualstudio",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

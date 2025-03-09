@@ -15,7 +15,8 @@
           "Neo4j.Driver": "5.27.0",
           "Newtonsoft.Json": "13.0.1",
           "Swashbuckle.AspNetCore": "6.6.2",
-          "xunit": "2.9.3"
+          "xunit": "2.9.3",
+          "xunit.runner.visualstudio": "3.0.0"
         },
         "runtime": {
           "WeatherAPI.dll": {}
@@ -463,7 +464,8 @@
             "fileVersion": "2.9.3.0"
           }
         }
-      }
+      },
+      "xunit.runner.visualstudio/3.0.0": {}
     }
   },
   "libraries": {
@@ -681,6 +683,13 @@
       "sha512": "sha512-yMb6vMESlSrE3Wfj7V6cjQ3S4TXdXpRqYeNEI3zsX31uTsGMJjEw6oD5F5u1cHnMptjhEECnmZSsPxB6ChZHDQ==",
       "path": "xunit.extensibility.execution/2.9.3",
       "hashPath": "xunit.extensibility.execution.2.9.3.nupkg.sha512"
+    },
+    "xunit.runner.visualstudio/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HggUqjQJe8PtDxcP25Q+CnR6Lz4oX3GElhD9V4oU2+75x9HI6A6sxbfKGS4UwU4t4yJaS9fBmAuriz8bQApNjw==",
+      "path": "xunit.runner.visualstudio/3.0.0",
+      "hashPath": "xunit.runner.visualstudio.3.0.0.nupkg.sha512"
     }
   }
 }
