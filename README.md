@@ -59,7 +59,7 @@ WeatherAPI is a simple CQRS-based .NET Core application that interacts with a **
 
 ## 🛠️ Testing
 - [x] Set up **xUnit** for unit testing
-- [ ] Mock **Neo4j.Driver** with **NSubstitute**
+- [x] Mock **Neo4j.Driver** with **NSubstitute**
 - [ ] Add test coverage for:
   - [ ] CreateWeatherHandler
   - [x] GetAllWeatherHandler
@@ -68,9 +68,9 @@ WeatherAPI is a simple CQRS-based .NET Core application that interacts with a **
 
 ## 🚀 Deployment & Optimization
 - [ ] Dockerize the application
-- [ ] Configure **CI/CD pipeline** for automated builds
-- [ ] Optimize database queries for **better performance**
-
+  - [x] Dockerize the Database
+  - [ ] Dockerize the API
+- [ ] Configure **CI/CD pipeline** for automated builds with nuke
 ```
 ### **License**
 - This project is licensed under the MIT License - see the LICENSE tab for details.
